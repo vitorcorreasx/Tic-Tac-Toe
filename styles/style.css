@@ -75,8 +75,8 @@ body{
 .score{
   color: rgba(0, 247, 227, 0.541);
   border-radius: 20px;
-  border-top: gray solid 1px;
-  border-bottom: rgba(0, 247, 227, 0.541) solid 1px;
+  border-top: rgba(0, 247, 227, 0.541) solid 1px;
+  border-bottom: rgba(0, 247, 227, 0.541) solid 4px;
   width: 300px;
   margin: auto;
   margin-bottom: 10px;
