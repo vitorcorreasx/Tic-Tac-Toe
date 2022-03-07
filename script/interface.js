@@ -16,7 +16,7 @@ function handleClick(event) {
     setTimeout(() => {
       if (winner == 0) {
         point1++
-        score.innerHTML = `<h1>(${point1}) x (0)</h1>` 
+        score.innerHTML = `<h1>(${point1}) x (${point2})</h1>` 
       } else {
         point2++
         score.innerHTML = `<h1>(${point1}) x (${point2})</h1>` 
