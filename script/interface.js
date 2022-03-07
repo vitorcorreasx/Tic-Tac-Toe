@@ -37,8 +37,7 @@ function updateSquares() {
 
     if (players != '') {
       square.innerHTML = `<div class="${players}"></div>`
-    } else if (gameOver == true) {
-        let btn = document.querySelector('#reset')
+      let btn = document.querySelector('#reset')
         btn.addEventListener('click', reset);
         function reset ()  {
           gameOver = false;
@@ -47,8 +46,7 @@ function updateSquares() {
           let squares = document.querySelectorAll('.square');
           for (let square of squares) {
             square.innerHTML = "";
-          };
-        };     
+          }};     
       };
   });          
 };
