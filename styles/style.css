@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: rgba(226, 226, 226, 0.226);
+  text-align: center;
+}
+
+.title{
+  color: rgb(255, 255, 255);
+  font-style: oblique;
+  text-decoration: underline rgba(0, 247, 227, 0.541);
+  margin-top: 20vh;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.square{
+  height: 100px;
+  width: 100px;
+  background-color: rgba(0, 247, 227, 0.541);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.player1{
+  position: relative;
+} 
+
+.player1:after{
+  position: absolute;
+  content: "❌";
+  color: red;
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.player2{
+  position: relative;
+}
+
+.player2:after{
+  position: absolute;
+  content: "⭕";
+  color: rgb(255, 0, 0);
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#reset{
+  background-color: rgba(0, 247, 227, 0.541);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.score{
+  color: rgba(0, 247, 227, 0.541);
+  border-radius: 20px;
+  border-top: gray solid 1px;
+  border-bottom: rgba(0, 247, 227, 0.541) solid 1px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.score h1::after{
+  content: "⭕";
+}
+
+.score h1::before{
+  content: "❌";
+}
+
