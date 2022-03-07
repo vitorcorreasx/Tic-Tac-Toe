@@ -1,3 +1,3 @@
 # Tic-Tac-Toe
 
-<img alt="Gif" scr="./assets/Animação.gif">
+<img alt="Gif" src="./assets/Animação.gif">
